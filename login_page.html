@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            
+            .header {
+                margin-top: 50px;
+                padding: 20px;
+                text-align: center;
+                font-size: 30px;
+            }
+            .wrap {
+                border: 5px solid #437FC1;
+                box-sizing: border-box;
+                width: 460px;
+                height: 300px;
+                margin: 0 auto;
+                margin-top: 50px;
+            }
+             .inner_wrap {
+                margin: 0 auto;
+                margin-top: 10px;
+                box-sizing: border-box;
+                border: 1px solid #dadada;
+                line-height: 40px;
+                font-size: 20px;
+                width: 430px;
+            }
+            .inner_sub_wrap {
+                box-sizing: border-box;
+                line-height: 40px;
+                font-size: 20px;
+                width: 430px;
+                margin: 0 auto;
+            }
+            .inner_id_wrap{
+                display: table;
+                table-layout: fixed;
+                width: 100%;
+                padding: 14px 17px 13px;
+                box-sizing: border-box;
+                border: none;
+            }
+            
+            .submit {
+                margin: 0 auto;
+                float: right;
+                display: block;
+                text-align: center;
+                padding: 14px 17px 13px;
+                background-color: #437FC1;
+                color: white;   
+            }
+            input {
+                font-size: 20px;
+                border: none;
+                outline: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "header">로그인 화면</div>
+        <div class = "wrap">
+            <form action = "login_page.php" method = "post">
+                <div class="inner_wrap">
+                    <div class="inner_id_wrap">
+                        <input type="text" id="name" name="name" placeholder = "이름" title = "이름" value><br>
+                    </div>
+                </div>
+                <div class="inner_wrap">
+                    <div class="inner_id_wrap">
+                        <input type="password" id="password" placeholder = "비밀번호" title = "비밀번호" name="password" value>
+                    </div>
+                </div>
+                <br><br>
+                <div class="inner_sub_wrap">
+                    <input type="submit" value="로그인" class = "submit" >
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
