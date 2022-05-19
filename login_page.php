@@ -6,7 +6,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>메인 화면</title>
         <style>
             .main{
                 text-decoration: none;
